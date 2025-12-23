@@ -175,46 +175,60 @@ body {
 .project-link:hover {
   color: var(--accent-soft);
 }/* ================= CONTACT SECTION ================= */
-
 .contact-section {
   padding: 80px 6vw;
   display: flex;
   justify-content: center;
+  background: var(--bg-section);
 }
 
 .contact-container {
   width: 100%;
+  margin: auto;
   max-width: 520px;
   text-align: center;
 }
 
 .contact-container h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+  font-size: 40px;
+  margin-bottom: 16px;
 }
 
 .contact-container p {
-  font-size: 0.95rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.75;
+  font-size: 18px;
+  margin-bottom: 32px;
 }
 
+.contact-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  
+}
+
+.contact-links a {
+text-decoration: none;
+font-size: 15px;
+position: relative;
+color: #444;
+}
 /* Button */
 
 .contact-btn {
-  background: transparent;
-  border: 1px solid #111;
-  padding: 12px 26px;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  padding: 14px 32px;
+  border-radius: 999px;
+  border: 1.5px solid #2C2C2C;
+  text-decoration: none;
+  color: #2C2C2C;
+  font-weight: 600;
 }
 
 .contact-btn:hover {
-  background: #111;
+  background: #2C2C2C;
   color: #fff;
+  transform: translateY(-2px);
 }
-
 /* ================= FORM ================= */
 
 .contact-form {
@@ -390,6 +404,7 @@ body {
     opacity: 0.035;
   }
 }
+
 
 
 
