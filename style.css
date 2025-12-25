@@ -342,7 +342,7 @@ color: #444;
 
 /* ================= MOBILE ================= */
 
-@media (max-width: 414px) {
+@media (max-width: 390px) {
 
   .nav {
     padding: 20px;
@@ -446,6 +446,7 @@ color: #444;
     opacity: 0.035;
   }
 }
+
 
 
 
