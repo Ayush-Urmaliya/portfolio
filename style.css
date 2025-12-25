@@ -342,7 +342,7 @@ color: #444;
 
 /* ================= MOBILE ================= */
 
-@media (max-width: 375<=412px) {
+@media (max-width: 768px) {
 
   .nav {
     padding: 20px;
@@ -416,10 +416,56 @@ color: #444;
     font-size: 0.9rem;
   }
 }
+@media (max-width: 480px) {
+  .nav {
+    padding: 20px;
+  }
+  
+  .nav-logo {
+    font-size: 24px;
+  }
+
+  .nav-links {
+    gap: 16px;
+  }
+
+  /* Ensure links are tap-friendly */
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  #hero {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin-top: 0;
+  }
+  
+  .bg-text {
+    top: 60%;
+    font-size: 80vw;
+  }
+
+  #about, #projects, #contact {
+    padding: 60px 20px;
+  }
+  
+  .project-image {
+    height: 160px; /* Smaller image on mobile */
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
 /* ================= SMALL MOBILE ================= */
 
-@media (max-width: 393px) {
+@media (max-width: 350px) {
 
   .intro {
     font-size: 28px;
@@ -446,6 +492,7 @@ color: #444;
     opacity: 0.035;
   }
 }
+
 
 
 
