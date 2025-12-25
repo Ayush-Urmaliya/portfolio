@@ -342,7 +342,7 @@ color: #444;
 
 /* ================= MOBILE ================= */
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
 
   .nav {
     padding: 20px;
@@ -419,7 +419,7 @@ color: #444;
 
 /* ================= SMALL MOBILE ================= */
 
-@media (max-width: 480px) {
+@media (max-width: 393px) {
 
   .intro {
     font-size: 28px;
@@ -446,6 +446,7 @@ color: #444;
     opacity: 0.035;
   }
 }
+
 
 
 
